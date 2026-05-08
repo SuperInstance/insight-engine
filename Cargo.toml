@@ -1,0 +1,12 @@
+[package]
+name = "insight-engine"
+version = "0.1.0"
+edition = "2021"
+description = "Self-iterating experimental discovery runtime — experiments breed experiments"
+
+[dependencies]
+rayon = "1.10"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = "0.4"
+rand = "0.8"

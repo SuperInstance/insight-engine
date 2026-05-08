@@ -1,0 +1,2105 @@
+{
+  "iteration": 49,
+  "insights": [
+    {
+      "id": 1,
+      "iteration": 2,
+      "experiment_type": "\"NovelCombination\"",
+      "parameters": {
+        "coupling": 0.7106896366159389,
+        "disk_radius": 8,
+        "eis_radius": 9,
+        "sbm_vars": 32
+      },
+      "observations": {
+        "primary": 0.35827664399092973,
+        "secondary": [
+          [
+            "mean_norm",
+            73.33333333333333
+          ],
+          [
+            "std_dev",
+            58.99905837290008
+          ],
+          [
+            "skewness",
+            1.354859930710844
+          ],
+          [
+            "prime_ratio",
+            0.35827664399092973
+          ],
+          [
+            "norm1_count",
+            6.0
+          ],
+          [
+            "total_points",
+            441.0
+          ]
+        ],
+        "success": true,
+        "convergence_steps": 441,
+        "anomalies": [
+          "Strong skewness: 1.355"
+        ]
+      },
+      "insight_text": "\"NovelCombination\" converged in 441 steps\nmean_norm=73.3333\nstd_dev=58.9991\nskewness=1.3549\nprime_ratio=0.3583\nnorm1_count=6.0000\ntotal_points=441.0000\nANOMALIES:\n  → Strong skewness: 1.355\n✨ HIGH NOVELTY (1.00)",
+      "surprise": 0.2,
+      "novelty": 1.0,
+      "quality": 0.2,
+      "parent_id": null,
+      "generation": 0
+    },
+    {
+      "id": 2,
+      "iteration": 4,
+      "experiment_type": "\"HexDiskBoundary\"",
+      "parameters": {
+        "center_a": 0,
+        "center_b": -1,
+        "radius": 24,
+        "scan_rings": true
+      },
+      "observations": {
+        "primary": 2.3747156342818316,
+        "secondary": [
+          [
+            "total_inside",
+            1895.0
+          ],
+          [
+            "boundary_coverage",
+            0.0
+          ],
+          [
+            "hole_count",
+            27.0
+          ],
+          [
+            "fractal_dim",
+            2.3747156342818316
+          ]
+        ],
+        "success": false,
+        "convergence_steps": 49,
+        "anomalies": [
+          "Hole at ring 22: 102/132 (77.3%)",
+          "Hole at ring 23: 88/138 (63.8%)",
+          "Hole at ring 24: 42/144 (29.2%)",
+          "Hole at ring 25: 0/150 (0.0%)",
+          "Hole at ring 26: 0/156 (0.0%)",
+          "Hole at ring 27: 0/162 (0.0%)",
+          "Hole at ring 28: 0/168 (0.0%)",
+          "Hole at ring 29: 0/174 (0.0%)",
+          "Hole at ring 30: 0/180 (0.0%)",
+          "Hole at ring 31: 0/186 (0.0%)",
+          "Hole at ring 32: 0/192 (0.0%)",
+          "Hole at ring 33: 0/198 (0.0%)",
+          "Hole at ring 34: 0/204 (0.0%)",
+          "Hole at ring 35: 0/210 (0.0%)",
+          "Hole at ring 36: 0/216 (0.0%)",
+          "Hole at ring 37: 0/222 (0.0%)",
+          "Hole at ring 38: 0/228 (0.0%)",
+          "Hole at ring 39: 0/234 (0.0%)",
+          "Hole at ring 40: 0/240 (0.0%)",
+          "Hole at ring 41: 0/246 (0.0%)",
+          "Hole at ring 42: 0/252 (0.0%)",
+          "Hole at ring 43: 0/258 (0.0%)",
+          "Hole at ring 44: 0/264 (0.0%)",
+          "Hole at ring 45: 0/270 (0.0%)",
+          "Hole at ring 46: 0/276 (0.0%)",
+          "Hole at ring 47: 0/282 (0.0%)",
+          "Hole at ring 48: 0/288 (0.0%)",
+          "Unexpected fractal dimension: 2.3747",
+          "Low boundary coverage: 0.000"
+        ]
+      },
+      "insight_text": "\"HexDiskBoundary\" did NOT converge after 49 steps\ntotal_inside=1895.0000\nhole_count=27.0000\nfractal_dim=2.3747\nANOMALIES:\n  → Hole at ring 22: 102/132 (77.3%)\n  → Hole at ring 23: 88/138 (63.8%)\n  → Hole at ring 24: 42/144 (29.2%)\n  → Hole at ring 25: 0/150 (0.0%)\n  → Hole at ring 26: 0/156 (0.0%)\n  → Hole at ring 27: 0/162 (0.0%)\n  → Hole at ring 28: 0/168 (0.0%)\n  → Hole at ring 29: 0/174 (0.0%)\n  → Hole at ring 30: 0/180 (0.0%)\n  → Hole at ring 31: 0/186 (0.0%)\n  → Hole at ring 32: 0/192 (0.0%)\n  → Hole at ring 33: 0/198 (0.0%)\n  → Hole at ring 34: 0/204 (0.0%)\n  → Hole at ring 35: 0/210 (0.0%)\n  → Hole at ring 36: 0/216 (0.0%)\n  → Hole at ring 37: 0/222 (0.0%)\n  → Hole at ring 38: 0/228 (0.0%)\n  → Hole at ring 39: 0/234 (0.0%)\n  → Hole at ring 40: 0/240 (0.0%)\n  → Hole at ring 41: 0/246 (0.0%)\n  → Hole at ring 42: 0/252 (0.0%)\n  → Hole at ring 43: 0/258 (0.0%)\n  → Hole at ring 44: 0/264 (0.0%)\n  → Hole at ring 45: 0/270 (0.0%)\n  → Hole at ring 46: 0/276 (0.0%)\n  → Hole at ring 47: 0/282 (0.0%)\n  → Hole at ring 48: 0/288 (0.0%)\n  → Unexpected fractal dimension: 2.3747\n  → Low boundary coverage: 0.000\n⚠️ HIGH SURPRISE (1.00)",
+      "surprise": 1.0,
+      "novelty": 0.3333333333333309,
+      "quality": 0.3333333333333309,
+      "parent_id": null,
+      "generation": 0
+    },
+    {
+      "id": 3,
+      "iteration": 7,
+      "experiment_type": "\"HexDiskBoundary\"",
+      "parameters": {
+        "center_a": -4,
+        "center_b": 0,
+        "radius": 3,
+        "scan_rings": true
+      },
+      "observations": {
+        "primary": 3.286799128218273,
+        "secondary": [
+          [
+            "total_inside",
+            37.0
+          ],
+          [
+            "boundary_coverage",
+            0.0
+          ],
+          [
+            "hole_count",
+            3.0
+          ],
+          [
+            "fractal_dim",
+            3.286799128218273
+          ]
+        ],
+        "success": false,
+        "convergence_steps": 7,
+        "anomalies": [
+          "Hole at ring 4: 0/24 (0.0%)",
+          "Hole at ring 5: 0/30 (0.0%)",
+          "Hole at ring 6: 0/36 (0.0%)",
+          "Unexpected fractal dimension: 3.2868",
+          "Low boundary coverage: 0.000"
+        ]
+      },
+      "insight_text": "\"HexDiskBoundary\" did NOT converge after 7 steps\ntotal_inside=37.0000\nhole_count=3.0000\nfractal_dim=3.2868\nANOMALIES:\n  → Hole at ring 4: 0/24 (0.0%)\n  → Hole at ring 5: 0/30 (0.0%)\n  → Hole at ring 6: 0/36 (0.0%)\n  → Unexpected fractal dimension: 3.2868\n  → Low boundary coverage: 0.000\n⚠️ HIGH SURPRISE (1.00)",
+      "surprise": 1.0,
+      "novelty": 0.4705822781785169,
+      "quality": 0.4705822781785169,
+      "parent_id": null,
+      "generation": 0
+    },
+    {
+      "id": 4,
+      "iteration": 8,
+      "experiment_type": "\"NovelCombination\"",
+      "parameters": {
+        "coupling": 0.9674729485138311,
+        "disk_radius": 10,
+        "eis_radius": 21,
+        "sbm_vars": 32
+      },
+      "observations": {
+        "primary": 0.35827664399092973,
+        "secondary": [
+          [
+            "mean_norm",
+            73.33333333333333
+          ],
+          [
+            "std_dev",
+            58.99905837290008
+          ],
+          [
+            "skewness",
+            1.354859930710844
+          ],
+          [
+            "prime_ratio",
+            0.35827664399092973
+          ],
+          [
+            "norm1_count",
+            6.0
+          ],
+          [
+            "total_points",
+            441.0
+          ]
+        ],
+        "success": true,
+        "convergence_steps": 441,
+        "anomalies": [
+          "Strong skewness: 1.355"
+        ]
+      },
+      "insight_text": "\"NovelCombination\" converged in 441 steps\nmean_norm=73.3333\nstd_dev=58.9991\nskewness=1.3549\nprime_ratio=0.3583\nnorm1_count=6.0000\ntotal_points=441.0000\nANOMALIES:\n  → Strong skewness: 1.355\n✨ HIGH NOVELTY (1.00)",
+      "surprise": 0.2,
+      "novelty": 1.0,
+      "quality": 0.2,
+      "parent_id": null,
+      "generation": 0
+    },
+    {
+      "id": 5,
+      "iteration": 10,
+      "experiment_type": "\"ConstraintCascade\"",
+      "parameters": {
+        "initial_breaks": 6,
+        "max_cascade_steps": 50,
+        "n_constraints": 23,
+        "n_variables": 256,
+        "propagation": "EisensteinWeighted"
+      },
+      "observations": {
+        "primary": 0.0234375,
+        "secondary": [
+          [
+            "cascade_fraction",
+            0.0234375
+          ],
+          [
+            "total_broken",
+            6.0
+          ],
+          [
+            "cascade_steps",
+            0.0
+          ],
+          [
+            "largest_avalanche",
+            0.0
+          ],
+          [
+            "avalanche_count",
+            0.0
+          ]
+        ],
+        "success": true,
+        "convergence_steps": 0,
+        "anomalies": [
+          "RESILIENT: only 2.3% broken after 6 initial breaks — constraint system absorbs shocks"
+        ]
+      },
+      "insight_text": "\"ConstraintCascade\" converged in 0 steps\ncascade_fraction=0.0234\ntotal_broken=6.0000\nANOMALIES:\n  → RESILIENT: only 2.3% broken after 6 initial breaks — constraint system absorbs shocks\n✨ HIGH NOVELTY (1.00)",
+      "surprise": 0.5,
+      "novelty": 1.0,
+      "quality": 0.5,
+      "parent_id": null,
+      "generation": 0
+    },
+    {
+      "id": 6,
+      "iteration": 11,
+      "experiment_type": "\"NovelCombination\"",
+      "parameters": {
+        "coupling": 0.7380510944137921,
+        "disk_radius": 9,
+        "eis_radius": 17,
+        "sbm_vars": 64
+      },
+      "observations": {
+        "primary": 0.35827664399092973,
+        "secondary": [
+          [
+            "mean_norm",
+            73.33333333333333
+          ],
+          [
+            "std_dev",
+            58.99905837290008
+          ],
+          [
+            "skewness",
+            1.354859930710844
+          ],
+          [
+            "prime_ratio",
+            0.35827664399092973
+          ],
+          [
+            "norm1_count",
+            6.0
+          ],
+          [
+            "total_points",
+            441.0
+          ]
+        ],
+        "success": true,
+        "convergence_steps": 441,
+        "anomalies": [
+          "Strong skewness: 1.355"
+        ]
+      },
+      "insight_text": "\"NovelCombination\" converged in 441 steps\nmean_norm=73.3333\nstd_dev=58.9991\nskewness=1.3549\nprime_ratio=0.3583\nnorm1_count=6.0000\ntotal_points=441.0000\nANOMALIES:\n  → Strong skewness: 1.355\n✨ HIGH NOVELTY (1.00)",
+      "surprise": 0.2,
+      "novelty": 1.0,
+      "quality": 0.2,
+      "parent_id": null,
+      "generation": 0
+    },
+    {
+      "id": 7,
+      "iteration": 14,
+      "experiment_type": "\"NovelCombination\"",
+      "parameters": {
+        "coupling": 0.6519051214998628,
+        "disk_radius": 4,
+        "eis_radius": 9,
+        "sbm_vars": 64
+      },
+      "observations": {
+        "primary": 0.35827664399092973,
+        "secondary": [
+          [
+            "mean_norm",
+            73.33333333333333
+          ],
+          [
+            "std_dev",
+            58.99905837290008
+          ],
+          [
+            "skewness",
+            1.354859930710844
+          ],
+          [
+            "prime_ratio",
+            0.35827664399092973
+          ],
+          [
+            "norm1_count",
+            6.0
+          ],
+          [
+            "total_points",
+            441.0
+          ]
+        ],
+        "success": true,
+        "convergence_steps": 441,
+        "anomalies": [
+          "Strong skewness: 1.355"
+        ]
+      },
+      "insight_text": "\"NovelCombination\" converged in 441 steps\nmean_norm=73.3333\nstd_dev=58.9991\nskewness=1.3549\nprime_ratio=0.3583\nnorm1_count=6.0000\ntotal_points=441.0000\nANOMALIES:\n  → Strong skewness: 1.355\n✨ HIGH NOVELTY (1.00)",
+      "surprise": 0.2,
+      "novelty": 1.0,
+      "quality": 0.2,
+      "parent_id": null,
+      "generation": 0
+    },
+    {
+      "id": 8,
+      "iteration": 16,
+      "experiment_type": "\"NovelCombination\"",
+      "parameters": {
+        "coupling": 1.375565271690849,
+        "disk_radius": 11,
+        "eis_radius": 29,
+        "sbm_vars": 32
+      },
+      "observations": {
+        "primary": 0.35827664399092973,
+        "secondary": [
+          [
+            "mean_norm",
+            73.33333333333333
+          ],
+          [
+            "std_dev",
+            58.99905837290008
+          ],
+          [
+            "skewness",
+            1.354859930710844
+          ],
+          [
+            "prime_ratio",
+            0.35827664399092973
+          ],
+          [
+            "norm1_count",
+            6.0
+          ],
+          [
+            "total_points",
+            441.0
+          ]
+        ],
+        "success": true,
+        "convergence_steps": 441,
+        "anomalies": [
+          "Strong skewness: 1.355"
+        ]
+      },
+      "insight_text": "\"NovelCombination\" converged in 441 steps\nmean_norm=73.3333\nstd_dev=58.9991\nskewness=1.3549\nprime_ratio=0.3583\nnorm1_count=6.0000\ntotal_points=441.0000\nANOMALIES:\n  → Strong skewness: 1.355\n✨ HIGH NOVELTY (1.00)",
+      "surprise": 0.2,
+      "novelty": 1.0,
+      "quality": 0.2,
+      "parent_id": null,
+      "generation": 0
+    },
+    {
+      "id": 9,
+      "iteration": 18,
+      "experiment_type": "\"SymmetryBreaking\"",
+      "parameters": {
+        "cascade_depth": 200,
+        "lattice_radius": 8,
+        "perturbation_site": 0,
+        "temperature": 0.01
+      },
+      "observations": {
+        "primary": 0.0044444444444444444,
+        "secondary": [
+          [
+            "final_broken_fraction",
+            0.0044444444444444444
+          ],
+          [
+            "cascade_depth_reached",
+            200.0
+          ],
+          [
+            "frontier_max_norm",
+            64.0
+          ],
+          [
+            "mean_entropy",
+            -0.0
+          ]
+        ],
+        "success": true,
+        "convergence_steps": 200,
+        "anomalies": [
+          "Step 0: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 1: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 2: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 3: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 4: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 5: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 6: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 7: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 8: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 9: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 10: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 11: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 12: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 13: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 14: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 15: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 16: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 17: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 18: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 19: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 20: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 21: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 22: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 23: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 24: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 25: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 26: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 27: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 28: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 29: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 30: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 31: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 32: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 33: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 34: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 35: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 36: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 37: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 38: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 39: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 40: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 41: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 42: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 43: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 44: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 45: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 46: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 47: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 48: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 49: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 50: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 51: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 52: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 53: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 54: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 55: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 56: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 57: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 58: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 59: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 60: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 61: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 62: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 63: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 64: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 65: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 66: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 67: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 68: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 69: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 70: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 71: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 72: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 73: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 74: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 75: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 76: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 77: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 78: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 79: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 80: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 81: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 82: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 83: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 84: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 85: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 86: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 87: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 88: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 89: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 90: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 91: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 92: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 93: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 94: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 95: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 96: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 97: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 98: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 99: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 100: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 101: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 102: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 103: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 104: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 105: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 106: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 107: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 108: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 109: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 110: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 111: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 112: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 113: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 114: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 115: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 116: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 117: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 118: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 119: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 120: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 121: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 122: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 123: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 124: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 125: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 126: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 127: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 128: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 129: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 130: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 131: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 132: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 133: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 134: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 135: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 136: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 137: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 138: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 139: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 140: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 141: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 142: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 143: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 144: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 145: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 146: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 147: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 148: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 149: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 150: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 151: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 152: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 153: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 154: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 155: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 156: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 157: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 158: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 159: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 160: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 161: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 162: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 163: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 164: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 165: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 166: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 167: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 168: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 169: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 170: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 171: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 172: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 173: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 174: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 175: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 176: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 177: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 178: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 179: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 180: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 181: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 182: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 183: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 184: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 185: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 186: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 187: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 188: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 189: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 190: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 191: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 192: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 193: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 194: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 195: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 196: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 197: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 198: Violations clustering at norm boundary (norm=64, 1 sites)",
+          "Step 199: Violations clustering at norm boundary (norm=64, 1 sites)"
+        ]
+      },
+      "insight_text": "\"SymmetryBreaking\" converged in 200 steps\nfinal_broken_fraction=0.0044\ncascade_depth_reached=200.0000\nfrontier_max_norm=64.0000\nANOMALIES:\n  → Step 0: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 1: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 2: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 3: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 4: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 5: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 6: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 7: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 8: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 9: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 10: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 11: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 12: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 13: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 14: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 15: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 16: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 17: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 18: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 19: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 20: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 21: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 22: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 23: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 24: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 25: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 26: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 27: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 28: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 29: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 30: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 31: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 32: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 33: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 34: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 35: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 36: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 37: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 38: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 39: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 40: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 41: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 42: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 43: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 44: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 45: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 46: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 47: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 48: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 49: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 50: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 51: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 52: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 53: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 54: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 55: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 56: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 57: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 58: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 59: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 60: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 61: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 62: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 63: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 64: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 65: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 66: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 67: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 68: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 69: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 70: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 71: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 72: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 73: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 74: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 75: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 76: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 77: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 78: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 79: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 80: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 81: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 82: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 83: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 84: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 85: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 86: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 87: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 88: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 89: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 90: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 91: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 92: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 93: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 94: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 95: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 96: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 97: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 98: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 99: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 100: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 101: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 102: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 103: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 104: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 105: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 106: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 107: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 108: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 109: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 110: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 111: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 112: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 113: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 114: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 115: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 116: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 117: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 118: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 119: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 120: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 121: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 122: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 123: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 124: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 125: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 126: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 127: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 128: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 129: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 130: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 131: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 132: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 133: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 134: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 135: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 136: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 137: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 138: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 139: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 140: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 141: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 142: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 143: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 144: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 145: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 146: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 147: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 148: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 149: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 150: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 151: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 152: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 153: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 154: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 155: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 156: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 157: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 158: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 159: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 160: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 161: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 162: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 163: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 164: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 165: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 166: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 167: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 168: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 169: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 170: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 171: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 172: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 173: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 174: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 175: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 176: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 177: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 178: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 179: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 180: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 181: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 182: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 183: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 184: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 185: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 186: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 187: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 188: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 189: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 190: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 191: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 192: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 193: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 194: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 195: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 196: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 197: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 198: Violations clustering at norm boundary (norm=64, 1 sites)\n  → Step 199: Violations clustering at norm boundary (norm=64, 1 sites)\n⚠️ HIGH SURPRISE (1.00)",
+      "surprise": 1.0,
+      "novelty": 0.2946082672970642,
+      "quality": 0.2946082672970642,
+      "parent_id": null,
+      "generation": 0
+    },
+    {
+      "id": 10,
+      "iteration": 21,
+      "experiment_type": "\"SymmetryBreaking\"",
+      "parameters": {
+        "cascade_depth": 200,
+        "lattice_radius": 4,
+        "perturbation_site": 0,
+        "temperature": 0.01
+      },
+      "observations": {
+        "primary": 0.01639344262295082,
+        "secondary": [
+          [
+            "final_broken_fraction",
+            0.01639344262295082
+          ],
+          [
+            "cascade_depth_reached",
+            200.0
+          ],
+          [
+            "frontier_max_norm",
+            16.0
+          ],
+          [
+            "mean_entropy",
+            -0.0
+          ]
+        ],
+        "success": true,
+        "convergence_steps": 200,
+        "anomalies": [
+          "Step 0: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 1: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 2: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 3: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 4: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 5: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 6: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 7: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 8: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 9: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 10: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 11: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 12: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 13: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 14: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 15: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 16: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 17: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 18: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 19: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 20: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 21: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 22: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 23: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 24: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 25: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 26: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 27: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 28: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 29: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 30: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 31: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 32: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 33: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 34: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 35: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 36: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 37: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 38: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 39: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 40: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 41: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 42: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 43: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 44: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 45: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 46: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 47: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 48: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 49: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 50: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 51: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 52: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 53: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 54: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 55: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 56: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 57: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 58: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 59: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 60: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 61: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 62: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 63: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 64: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 65: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 66: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 67: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 68: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 69: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 70: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 71: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 72: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 73: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 74: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 75: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 76: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 77: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 78: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 79: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 80: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 81: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 82: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 83: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 84: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 85: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 86: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 87: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 88: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 89: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 90: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 91: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 92: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 93: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 94: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 95: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 96: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 97: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 98: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 99: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 100: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 101: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 102: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 103: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 104: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 105: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 106: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 107: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 108: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 109: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 110: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 111: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 112: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 113: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 114: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 115: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 116: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 117: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 118: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 119: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 120: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 121: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 122: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 123: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 124: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 125: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 126: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 127: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 128: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 129: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 130: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 131: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 132: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 133: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 134: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 135: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 136: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 137: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 138: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 139: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 140: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 141: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 142: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 143: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 144: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 145: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 146: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 147: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 148: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 149: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 150: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 151: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 152: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 153: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 154: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 155: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 156: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 157: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 158: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 159: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 160: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 161: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 162: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 163: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 164: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 165: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 166: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 167: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 168: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 169: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 170: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 171: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 172: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 173: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 174: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 175: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 176: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 177: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 178: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 179: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 180: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 181: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 182: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 183: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 184: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 185: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 186: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 187: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 188: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 189: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 190: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 191: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 192: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 193: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 194: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 195: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 196: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 197: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 198: Violations clustering at norm boundary (norm=16, 1 sites)",
+          "Step 199: Violations clustering at norm boundary (norm=16, 1 sites)"
+        ]
+      },
+      "insight_text": "\"SymmetryBreaking\" converged in 200 steps\nfinal_broken_fraction=0.0164\ncascade_depth_reached=200.0000\nfrontier_max_norm=16.0000\nANOMALIES:\n  → Step 0: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 1: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 2: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 3: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 4: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 5: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 6: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 7: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 8: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 9: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 10: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 11: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 12: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 13: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 14: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 15: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 16: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 17: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 18: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 19: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 20: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 21: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 22: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 23: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 24: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 25: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 26: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 27: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 28: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 29: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 30: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 31: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 32: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 33: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 34: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 35: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 36: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 37: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 38: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 39: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 40: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 41: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 42: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 43: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 44: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 45: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 46: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 47: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 48: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 49: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 50: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 51: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 52: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 53: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 54: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 55: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 56: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 57: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 58: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 59: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 60: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 61: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 62: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 63: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 64: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 65: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 66: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 67: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 68: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 69: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 70: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 71: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 72: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 73: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 74: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 75: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 76: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 77: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 78: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 79: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 80: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 81: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 82: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 83: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 84: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 85: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 86: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 87: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 88: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 89: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 90: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 91: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 92: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 93: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 94: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 95: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 96: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 97: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 98: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 99: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 100: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 101: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 102: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 103: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 104: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 105: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 106: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 107: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 108: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 109: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 110: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 111: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 112: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 113: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 114: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 115: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 116: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 117: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 118: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 119: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 120: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 121: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 122: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 123: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 124: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 125: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 126: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 127: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 128: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 129: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 130: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 131: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 132: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 133: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 134: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 135: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 136: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 137: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 138: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 139: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 140: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 141: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 142: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 143: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 144: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 145: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 146: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 147: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 148: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 149: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 150: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 151: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 152: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 153: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 154: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 155: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 156: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 157: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 158: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 159: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 160: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 161: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 162: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 163: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 164: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 165: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 166: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 167: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 168: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 169: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 170: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 171: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 172: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 173: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 174: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 175: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 176: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 177: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 178: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 179: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 180: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 181: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 182: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 183: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 184: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 185: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 186: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 187: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 188: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 189: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 190: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 191: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 192: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 193: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 194: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 195: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 196: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 197: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 198: Violations clustering at norm boundary (norm=16, 1 sites)\n  → Step 199: Violations clustering at norm boundary (norm=16, 1 sites)\n⚠️ HIGH SURPRISE (1.00)",
+      "surprise": 1.0,
+      "novelty": 0.24755592699926995,
+      "quality": 0.24755592699926995,
+      "parent_id": null,
+      "generation": 0
+    },
+    {
+      "id": 11,
+      "iteration": 25,
+      "experiment_type": "\"SymmetryBreaking\"",
+      "parameters": {
+        "cascade_depth": 33,
+        "lattice_radius": 14,
+        "perturbation_site": 2,
+        "temperature": 0.3716896655980412
+      },
+      "observations": {
+        "primary": 0.0015128593040847202,
+        "secondary": [
+          [
+            "final_broken_fraction",
+            0.0015128593040847202
+          ],
+          [
+            "cascade_depth_reached",
+            33.0
+          ],
+          [
+            "frontier_max_norm",
+            172.0
+          ],
+          [
+            "mean_entropy",
+            -0.0
+          ]
+        ],
+        "success": true,
+        "convergence_steps": 33,
+        "anomalies": [
+          "Step 0: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 1: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 2: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 3: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 4: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 5: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 6: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 7: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 8: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 9: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 10: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 11: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 12: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 13: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 14: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 15: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 16: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 17: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 18: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 19: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 20: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 21: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 22: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 23: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 24: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 25: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 26: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 27: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 28: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 29: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 30: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 31: Violations clustering at norm boundary (norm=172, 1 sites)",
+          "Step 32: Violations clustering at norm boundary (norm=172, 1 sites)"
+        ]
+      },
+      "insight_text": "\"SymmetryBreaking\" converged in 33 steps\nfinal_broken_fraction=0.0015\ncascade_depth_reached=33.0000\nfrontier_max_norm=172.0000\nANOMALIES:\n  → Step 0: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 1: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 2: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 3: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 4: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 5: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 6: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 7: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 8: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 9: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 10: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 11: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 12: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 13: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 14: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 15: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 16: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 17: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 18: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 19: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 20: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 21: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 22: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 23: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 24: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 25: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 26: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 27: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 28: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 29: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 30: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 31: Violations clustering at norm boundary (norm=172, 1 sites)\n  → Step 32: Violations clustering at norm boundary (norm=172, 1 sites)\n⚠️ HIGH SURPRISE (1.00)",
+      "surprise": 1.0,
+      "novelty": 0.4035975833819625,
+      "quality": 0.4035975833819625,
+      "parent_id": null,
+      "generation": 0
+    },
+    {
+      "id": 12,
+      "iteration": 29,
+      "experiment_type": "\"NovelCombination\"",
+      "parameters": {
+        "coupling": 0.5698235160778036,
+        "disk_radius": 9,
+        "eis_radius": 29,
+        "sbm_vars": 32
+      },
+      "observations": {
+        "primary": 0.35827664399092973,
+        "secondary": [
+          [
+            "mean_norm",
+            73.33333333333333
+          ],
+          [
+            "std_dev",
+            58.99905837290008
+          ],
+          [
+            "skewness",
+            1.354859930710844
+          ],
+          [
+            "prime_ratio",
+            0.35827664399092973
+          ],
+          [
+            "norm1_count",
+            6.0
+          ],
+          [
+            "total_points",
+            441.0
+          ]
+        ],
+        "success": true,
+        "convergence_steps": 441,
+        "anomalies": [
+          "Strong skewness: 1.355"
+        ]
+      },
+      "insight_text": "\"NovelCombination\" converged in 441 steps\nmean_norm=73.3333\nstd_dev=58.9991\nskewness=1.3549\nprime_ratio=0.3583\nnorm1_count=6.0000\ntotal_points=441.0000\nANOMALIES:\n  → Strong skewness: 1.355\n✨ HIGH NOVELTY (1.00)",
+      "surprise": 0.2,
+      "novelty": 1.0,
+      "quality": 0.2,
+      "parent_id": null,
+      "generation": 0
+    },
+    {
+      "id": 13,
+      "iteration": 32,
+      "experiment_type": "\"EisensteinNormSweep\"",
+      "parameters": {
+        "center_a": -3,
+        "center_b": 1,
+        "density": 3,
+        "radius": 11
+      },
+      "observations": {
+        "primary": 0.046875,
+        "secondary": [
+          [
+            "mean_norm",
+            108.75
+          ],
+          [
+            "std_dev",
+            96.17269622923129
+          ],
+          [
+            "skewness",
+            1.567915284756844
+          ],
+          [
+            "prime_ratio",
+            0.046875
+          ],
+          [
+            "norm1_count",
+            0.0
+          ],
+          [
+            "total_points",
+            64.0
+          ]
+        ],
+        "success": true,
+        "convergence_steps": 64,
+        "anomalies": [
+          "Strong skewness: 1.568",
+          "Norm-1 count anomaly: 0 (expected 6)"
+        ]
+      },
+      "insight_text": "\"EisensteinNormSweep\" converged in 64 steps\nmean_norm=108.7500\nstd_dev=96.1727\nskewness=1.5679\nprime_ratio=0.0469\ntotal_points=64.0000\nANOMALIES:\n  → Strong skewness: 1.568\n  → Norm-1 count anomaly: 0 (expected 6)",
+      "surprise": 0.7,
+      "novelty": 0.4638390026298116,
+      "quality": 0.3246873018408681,
+      "parent_id": null,
+      "generation": 0
+    },
+    {
+      "id": 14,
+      "iteration": 46,
+      "experiment_type": "\"HexDiskBoundary\"",
+      "parameters": {
+        "center_a": 1,
+        "center_b": 2,
+        "radius": 3,
+        "scan_rings": true
+      },
+      "observations": {
+        "primary": 3.286799128218273,
+        "secondary": [
+          [
+            "total_inside",
+            37.0
+          ],
+          [
+            "boundary_coverage",
+            0.0
+          ],
+          [
+            "hole_count",
+            3.0
+          ],
+          [
+            "fractal_dim",
+            3.286799128218273
+          ]
+        ],
+        "success": false,
+        "convergence_steps": 7,
+        "anomalies": [
+          "Hole at ring 4: 0/24 (0.0%)",
+          "Hole at ring 5: 0/30 (0.0%)",
+          "Hole at ring 6: 0/36 (0.0%)",
+          "Unexpected fractal dimension: 3.2868",
+          "Low boundary coverage: 0.000"
+        ]
+      },
+      "insight_text": "\"HexDiskBoundary\" did NOT converge after 7 steps\ntotal_inside=37.0000\nhole_count=3.0000\nfractal_dim=3.2868\nANOMALIES:\n  → Hole at ring 4: 0/24 (0.0%)\n  → Hole at ring 5: 0/30 (0.0%)\n  → Hole at ring 6: 0/36 (0.0%)\n  → Unexpected fractal dimension: 3.2868\n  → Low boundary coverage: 0.000\n⚠️ HIGH SURPRISE (1.00)",
+      "surprise": 1.0,
+      "novelty": 0.5728131217977791,
+      "quality": 0.5728131217977791,
+      "parent_id": null,
+      "generation": 0
+    },
+    {
+      "id": 15,
+      "iteration": 49,
+      "experiment_type": "\"HexDiskBoundary\"",
+      "parameters": {
+        "center_a": -3,
+        "center_b": -2,
+        "radius": 22,
+        "scan_rings": true
+      },
+      "observations": {
+        "primary": 2.387021150414917,
+        "secondary": [
+          [
+            "total_inside",
+            1601.0
+          ],
+          [
+            "boundary_coverage",
+            0.0
+          ],
+          [
+            "hole_count",
+            24.0
+          ],
+          [
+            "fractal_dim",
+            2.387021150414917
+          ]
+        ],
+        "success": false,
+        "convergence_steps": 45,
+        "anomalies": [
+          "Hole at ring 21: 76/126 (60.3%)",
+          "Hole at ring 22: 46/132 (34.8%)",
+          "Hole at ring 23: 0/138 (0.0%)",
+          "Hole at ring 24: 0/144 (0.0%)",
+          "Hole at ring 25: 0/150 (0.0%)",
+          "Hole at ring 26: 0/156 (0.0%)",
+          "Hole at ring 27: 0/162 (0.0%)",
+          "Hole at ring 28: 0/168 (0.0%)",
+          "Hole at ring 29: 0/174 (0.0%)",
+          "Hole at ring 30: 0/180 (0.0%)",
+          "Hole at ring 31: 0/186 (0.0%)",
+          "Hole at ring 32: 0/192 (0.0%)",
+          "Hole at ring 33: 0/198 (0.0%)",
+          "Hole at ring 34: 0/204 (0.0%)",
+          "Hole at ring 35: 0/210 (0.0%)",
+          "Hole at ring 36: 0/216 (0.0%)",
+          "Hole at ring 37: 0/222 (0.0%)",
+          "Hole at ring 38: 0/228 (0.0%)",
+          "Hole at ring 39: 0/234 (0.0%)",
+          "Hole at ring 40: 0/240 (0.0%)",
+          "Hole at ring 41: 0/246 (0.0%)",
+          "Hole at ring 42: 0/252 (0.0%)",
+          "Hole at ring 43: 0/258 (0.0%)",
+          "Hole at ring 44: 0/264 (0.0%)",
+          "Unexpected fractal dimension: 2.3870",
+          "Low boundary coverage: 0.000"
+        ]
+      },
+      "insight_text": "\"HexDiskBoundary\" did NOT converge after 45 steps\ntotal_inside=1601.0000\nhole_count=24.0000\nfractal_dim=2.3870\nANOMALIES:\n  → Hole at ring 21: 76/126 (60.3%)\n  → Hole at ring 22: 46/132 (34.8%)\n  → Hole at ring 23: 0/138 (0.0%)\n  → Hole at ring 24: 0/144 (0.0%)\n  → Hole at ring 25: 0/150 (0.0%)\n  → Hole at ring 26: 0/156 (0.0%)\n  → Hole at ring 27: 0/162 (0.0%)\n  → Hole at ring 28: 0/168 (0.0%)\n  → Hole at ring 29: 0/174 (0.0%)\n  → Hole at ring 30: 0/180 (0.0%)\n  → Hole at ring 31: 0/186 (0.0%)\n  → Hole at ring 32: 0/192 (0.0%)\n  → Hole at ring 33: 0/198 (0.0%)\n  → Hole at ring 34: 0/204 (0.0%)\n  → Hole at ring 35: 0/210 (0.0%)\n  → Hole at ring 36: 0/216 (0.0%)\n  → Hole at ring 37: 0/222 (0.0%)\n  → Hole at ring 38: 0/228 (0.0%)\n  → Hole at ring 39: 0/234 (0.0%)\n  → Hole at ring 40: 0/240 (0.0%)\n  → Hole at ring 41: 0/246 (0.0%)\n  → Hole at ring 42: 0/252 (0.0%)\n  → Hole at ring 43: 0/258 (0.0%)\n  → Hole at ring 44: 0/264 (0.0%)\n  → Unexpected fractal dimension: 2.3870\n  → Low boundary coverage: 0.000\n⚠️ HIGH SURPRISE (1.00)",
+      "surprise": 1.0,
+      "novelty": 0.23425690462247453,
+      "quality": 0.23425690462247453,
+      "parent_id": null,
+      "generation": 0
+    }
+  ],
+  "known_patterns": [
+    {
+      "experiment_type": "TopologicalInvariants",
+      "parameter_signature": "topo_r13_t1_fNone",
+      "result_range": [
+        1.0,
+        1.0
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "HexDiskBoundary",
+      "parameter_signature": "hex_disk_r16_-5_-4",
+      "result_range": [
+        2.434945152443315,
+        2.434945152443315
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "EisensteinNormSweep",
+      "parameter_signature": "eis_norm_r10_d1_0_0",
+      "result_range": [
+        0.35827664399092973,
+        0.35827664399092973
+      ],
+      "observation_count": 6
+    },
+    {
+      "experiment_type": "SymmetryBreaking",
+      "parameter_signature": "symmetry_r7_p0_c200",
+      "result_range": [
+        0.005714285714285714,
+        0.005714285714285714
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "HexDiskBoundary",
+      "parameter_signature": "hex_disk_r24_0_-1",
+      "result_range": [
+        2.3747156342818316,
+        2.3747156342818316
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "PhaseTransition",
+      "parameter_signature": "phase_n32_d0.9435920302445708_s18",
+      "result_range": [
+        0.05242177945803171,
+        0.05242177945803171
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "PhaseTransition",
+      "parameter_signature": "phase_n256_d1_s30",
+      "result_range": [
+        0.03333333333333333,
+        0.03333333333333333
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "HexDiskBoundary",
+      "parameter_signature": "hex_disk_r3_-4_0",
+      "result_range": [
+        3.286799128218273,
+        3.286799128218273
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "PhaseTransition",
+      "parameter_signature": "phase_n256_d1_s30",
+      "result_range": [
+        0.03333333333333333,
+        0.03333333333333333
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "SymmetryBreaking",
+      "parameter_signature": "cascade_n256_c23_b6_EisensteinWeighted",
+      "result_range": [
+        0.0234375,
+        0.0234375
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "SymmetryBreaking",
+      "parameter_signature": "symmetry_r6_p0_c200",
+      "result_range": [
+        0.007874015748031496,
+        0.007874015748031496
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "SbmConvergence",
+      "parameter_signature": "sbm_n256_d0.18_c1.85_k0.47",
+      "result_range": [
+        0.6025214498336544,
+        0.6025214498336544
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "SymmetryBreaking",
+      "parameter_signature": "symmetry_r5_p0_c200",
+      "result_range": [
+        0.01098901098901099,
+        0.01098901098901099
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "SbmConvergence",
+      "parameter_signature": "sbm_n64_d0.47_c1.17_k0.32",
+      "result_range": [
+        0.6303162486368593,
+        0.6303162486368593
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "SymmetryBreaking",
+      "parameter_signature": "symmetry_r8_p0_c200",
+      "result_range": [
+        0.0044444444444444444,
+        0.0044444444444444444
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "EisensteinNormSweep",
+      "parameter_signature": "eis_norm_r21_d3_-7_6",
+      "result_range": [
+        0.4311111111111111,
+        0.4311111111111111
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "NormMultiplicative",
+      "parameter_signature": "norm_mult_207",
+      "result_range": [
+        0.22388059701492538,
+        0.22388059701492538
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "SymmetryBreaking",
+      "parameter_signature": "symmetry_r4_p0_c200",
+      "result_range": [
+        0.01639344262295082,
+        0.01639344262295082
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "SbmConvergence",
+      "parameter_signature": "sbm_n256_d0.30_c1.12_k0.72",
+      "result_range": [
+        0.5779483456073021,
+        0.5779483456073021
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "SbmConvergence",
+      "parameter_signature": "sbm_n32_d0.50_c1.58_k0.56",
+      "result_range": [
+        0.6463878326996197,
+        0.6463878326996197
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "SpectralAnalysis",
+      "parameter_signature": "spectral_n64_5_NormWeighted",
+      "result_range": [
+        0.8575322821085813,
+        0.8575322821085813
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "SymmetryBreaking",
+      "parameter_signature": "symmetry_r14_p2_c33",
+      "result_range": [
+        0.0015128593040847202,
+        0.0015128593040847202
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "SbmConvergence",
+      "parameter_signature": "sbm_n128_d0.90_c1.67_k0.46",
+      "result_range": [
+        0.5635814336720681,
+        0.5635814336720681
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "SpectralAnalysis",
+      "parameter_signature": "spectral_n64_5_NormWeighted",
+      "result_range": [
+        0.5987145328828265,
+        0.5987145328828265
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "HexDiskBoundary",
+      "parameter_signature": "hex_disk_r15_3_2",
+      "result_range": [
+        2.4470439087694418,
+        2.4470439087694418
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "SpectralAnalysis",
+      "parameter_signature": "spectral_n64_5_NormWeighted",
+      "result_range": [
+        0.5874076847438499,
+        0.5874076847438499
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "SbmConvergence",
+      "parameter_signature": "sbm_n128_d0.86_c1.09_k0.49",
+      "result_range": [
+        0.5589750930432293,
+        0.5589750930432293
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "EisensteinNormSweep",
+      "parameter_signature": "eis_norm_r11_d3_-3_1",
+      "result_range": [
+        0.046875,
+        0.046875
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "SpectralAnalysis",
+      "parameter_signature": "spectral_n64_5_NormWeighted",
+      "result_range": [
+        0.7188625199974013,
+        0.7188625199974013
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "HexDiskBoundary",
+      "parameter_signature": "hex_disk_r15_1_1",
+      "result_range": [
+        2.4470439087694418,
+        2.4470439087694418
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "NormMultiplicative",
+      "parameter_signature": "norm_mult_330",
+      "result_range": [
+        0.029411764705882353,
+        0.029411764705882353
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "SpectralAnalysis",
+      "parameter_signature": "spectral_n64_5_NormWeighted",
+      "result_range": [
+        0.8011967975374148,
+        0.8011967975374148
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "HexDiskBoundary",
+      "parameter_signature": "hex_disk_r10_0_1",
+      "result_range": [
+        2.5352941200427708,
+        2.5352941200427708
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "HexDiskBoundary",
+      "parameter_signature": "hex_disk_r11_-4_3",
+      "result_range": [
+        2.5099483212511067,
+        2.5099483212511067
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "SpectralAnalysis",
+      "parameter_signature": "spectral_n64_5_NormWeighted",
+      "result_range": [
+        0.795941628449679,
+        0.795941628449679
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "NormMultiplicative",
+      "parameter_signature": "norm_mult_71",
+      "result_range": [
+        0.15384615384615385,
+        0.15384615384615385
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "SbmConvergence",
+      "parameter_signature": "sbm_n256_d0.82_c0.68_k0.67",
+      "result_range": [
+        0.5479001643999402,
+        0.5479001643999402
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "SpectralAnalysis",
+      "parameter_signature": "spectral_n64_5_NormWeighted",
+      "result_range": [
+        0.755301410497192,
+        0.755301410497192
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "SbmConvergence",
+      "parameter_signature": "sbm_n256_d0.16_c1.38_k0.58",
+      "result_range": [
+        0.606124001521491,
+        0.606124001521491
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "SbmConvergence",
+      "parameter_signature": "sbm_n32_d0.64_c1.97_k0.59",
+      "result_range": [
+        0.6456456456456456,
+        0.6456456456456456
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "SpectralAnalysis",
+      "parameter_signature": "spectral_n64_5_NormWeighted",
+      "result_range": [
+        0.8704924168232737,
+        0.8704924168232737
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "HexDiskBoundary",
+      "parameter_signature": "hex_disk_r3_1_2",
+      "result_range": [
+        3.286799128218273,
+        3.286799128218273
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "EisensteinNormSweep",
+      "parameter_signature": "eis_norm_r31_d1_3_0",
+      "result_range": [
+        0.26480221718316954,
+        0.26480221718316954
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "PhaseTransition",
+      "parameter_signature": "phase_n1024_d1_s30",
+      "result_range": [
+        0.03333333333333333,
+        0.03333333333333333
+      ],
+      "observation_count": 1
+    },
+    {
+      "experiment_type": "HexDiskBoundary",
+      "parameter_signature": "hex_disk_r22_-3_-2",
+      "result_range": [
+        2.387021150414917,
+        2.387021150414917
+      ],
+      "observation_count": 1
+    }
+  ],
+  "explored_regions": [
+    {
+      "experiment_type": "\"novel\"",
+      "params": {},
+      "result": 0.0,
+      "surprise": 0.0
+    },
+    {
+      "experiment_type": "HexDiskBoundary",
+      "params": {
+        "center_a": -5,
+        "center_b": -4,
+        "radius": 16,
+        "scan_rings": true
+      },
+      "result": 2.434945152443315,
+      "surprise": 1.375417338970026
+    },
+    {
+      "experiment_type": "EisensteinNormSweep",
+      "params": {
+        "center_a": 0,
+        "center_b": 0,
+        "density": 1,
+        "radius": 10
+      },
+      "result": 0.35827664399092973,
+      "surprise": 2.6832815729997472
+    },
+    {
+      "experiment_type": "\"novel\"",
+      "params": {},
+      "result": 0.0,
+      "surprise": 0.0
+    },
+    {
+      "experiment_type": "HexDiskBoundary",
+      "params": {
+        "center_a": 0,
+        "center_b": -1,
+        "radius": 24,
+        "scan_rings": true
+      },
+      "result": 2.3747156342818316,
+      "surprise": 1.1849548792052607
+    },
+    {
+      "experiment_type": "\"novel\"",
+      "params": {},
+      "result": 0.0,
+      "surprise": 0.0
+    },
+    {
+      "experiment_type": "\"novel\"",
+      "params": {},
+      "result": 0.0,
+      "surprise": 0.0
+    },
+    {
+      "experiment_type": "HexDiskBoundary",
+      "params": {
+        "center_a": -4,
+        "center_b": 0,
+        "radius": 3,
+        "scan_rings": true
+      },
+      "result": 3.286799128218273,
+      "surprise": 4.069216136288791
+    },
+    {
+      "experiment_type": "EisensteinNormSweep",
+      "params": {
+        "center_a": 0,
+        "center_b": 0,
+        "density": 1,
+        "radius": 10
+      },
+      "result": 0.35827664399092973,
+      "surprise": 2.6832815729997472
+    },
+    {
+      "experiment_type": "\"novel\"",
+      "params": {},
+      "result": 0.0,
+      "surprise": 0.0
+    },
+    {
+      "experiment_type": "\"novel\"",
+      "params": {},
+      "result": 0.0,
+      "surprise": 0.0
+    },
+    {
+      "experiment_type": "EisensteinNormSweep",
+      "params": {
+        "center_a": 0,
+        "center_b": 0,
+        "density": 1,
+        "radius": 10
+      },
+      "result": 0.35827664399092973,
+      "surprise": 2.6832815729997472
+    },
+    {
+      "experiment_type": "\"novel\"",
+      "params": {},
+      "result": 0.0,
+      "surprise": 0.0
+    },
+    {
+      "experiment_type": "SbmConvergence",
+      "params": {
+        "coupling_strength": 1.8458843950242438,
+        "density": 0.17704644649850432,
+        "kerr_coefficient": 0.4652291812810764,
+        "max_iterations": 2000,
+        "n_vars": 256
+      },
+      "result": 0.6025214498336544,
+      "surprise": 1.0
+    },
+    {
+      "experiment_type": "EisensteinNormSweep",
+      "params": {
+        "center_a": 0,
+        "center_b": 0,
+        "density": 1,
+        "radius": 10
+      },
+      "result": 0.35827664399092973,
+      "surprise": 2.6832815729997472
+    },
+    {
+      "experiment_type": "\"novel\"",
+      "params": {},
+      "result": 0.0,
+      "surprise": 0.0
+    },
+    {
+      "experiment_type": "EisensteinNormSweep",
+      "params": {
+        "center_a": 0,
+        "center_b": 0,
+        "density": 1,
+        "radius": 10
+      },
+      "result": 0.35827664399092973,
+      "surprise": 2.6832815729997472
+    },
+    {
+      "experiment_type": "SbmConvergence",
+      "params": {
+        "coupling_strength": 1.1726087549396351,
+        "density": 0.4712613415127356,
+        "kerr_coefficient": 0.32309872312294285,
+        "max_iterations": 2000,
+        "n_vars": 64
+      },
+      "result": 0.6303162486368593,
+      "surprise": 1.0
+    },
+    {
+      "experiment_type": "\"novel\"",
+      "params": {},
+      "result": 0.0,
+      "surprise": 0.0
+    },
+    {
+      "experiment_type": "EisensteinNormSweep",
+      "params": {
+        "center_a": -7,
+        "center_b": 6,
+        "density": 3,
+        "radius": 21
+      },
+      "result": 0.4311111111111111,
+      "surprise": 4.806785584285262
+    },
+    {
+      "experiment_type": "\"novel\"",
+      "params": {},
+      "result": 0.0,
+      "surprise": 0.0
+    },
+    {
+      "experiment_type": "\"novel\"",
+      "params": {},
+      "result": 0.0,
+      "surprise": 0.0
+    },
+    {
+      "experiment_type": "SbmConvergence",
+      "params": {
+        "coupling_strength": 1.118468603778017,
+        "density": 0.2956823167671988,
+        "kerr_coefficient": 0.7164664877346253,
+        "max_iterations": 2000,
+        "n_vars": 256
+      },
+      "result": 0.5779483456073021,
+      "surprise": 1.0
+    },
+    {
+      "experiment_type": "SbmConvergence",
+      "params": {
+        "coupling_strength": 1.581655710592904,
+        "density": 0.49732134302957454,
+        "kerr_coefficient": 0.564853738326689,
+        "max_iterations": 2000,
+        "n_vars": 32
+      },
+      "result": 0.6463878326996197,
+      "surprise": 1.0
+    },
+    {
+      "experiment_type": "\"novel\"",
+      "params": {},
+      "result": 0.0,
+      "surprise": 0.0
+    },
+    {
+      "experiment_type": "\"novel\"",
+      "params": {},
+      "result": 0.0,
+      "surprise": 0.0
+    },
+    {
+      "experiment_type": "SbmConvergence",
+      "params": {
+        "coupling_strength": 1.6662525425729724,
+        "density": 0.8967634738651372,
+        "kerr_coefficient": 0.4604875405207245,
+        "max_iterations": 2000,
+        "n_vars": 128
+      },
+      "result": 0.5635814336720681,
+      "surprise": 1.0
+    },
+    {
+      "experiment_type": "\"novel\"",
+      "params": {},
+      "result": 0.0,
+      "surprise": 0.0
+    },
+    {
+      "experiment_type": "HexDiskBoundary",
+      "params": {
+        "center_a": 3,
+        "center_b": 2,
+        "radius": 15,
+        "scan_rings": true
+      },
+      "result": 2.4470439087694418,
+      "surprise": 1.4136769658159567
+    },
+    {
+      "experiment_type": "EisensteinNormSweep",
+      "params": {
+        "center_a": 0,
+        "center_b": 0,
+        "density": 1,
+        "radius": 10
+      },
+      "result": 0.35827664399092973,
+      "surprise": 2.6832815729997472
+    },
+    {
+      "experiment_type": "\"novel\"",
+      "params": {},
+      "result": 0.0,
+      "surprise": 0.0
+    },
+    {
+      "experiment_type": "SbmConvergence",
+      "params": {
+        "coupling_strength": 1.0935202574288982,
+        "density": 0.8586624665577617,
+        "kerr_coefficient": 0.4899513184822385,
+        "max_iterations": 2000,
+        "n_vars": 128
+      },
+      "result": 0.5589750930432293,
+      "surprise": 1.0
+    },
+    {
+      "experiment_type": "EisensteinNormSweep",
+      "params": {
+        "center_a": -3,
+        "center_b": 1,
+        "density": 3,
+        "radius": 11
+      },
+      "result": 0.046875,
+      "surprise": 3.7929996064614193
+    },
+    {
+      "experiment_type": "\"novel\"",
+      "params": {},
+      "result": 0.0,
+      "surprise": 0.0
+    },
+    {
+      "experiment_type": "HexDiskBoundary",
+      "params": {
+        "center_a": 1,
+        "center_b": 1,
+        "radius": 15,
+        "scan_rings": true
+      },
+      "result": 2.4470439087694418,
+      "surprise": 1.4136769658159567
+    },
+    {
+      "experiment_type": "\"novel\"",
+      "params": {},
+      "result": 0.0,
+      "surprise": 0.0
+    },
+    {
+      "experiment_type": "\"novel\"",
+      "params": {},
+      "result": 0.0,
+      "surprise": 0.0
+    },
+    {
+      "experiment_type": "HexDiskBoundary",
+      "params": {
+        "center_a": 0,
+        "center_b": 1,
+        "radius": 10,
+        "scan_rings": true
+      },
+      "result": 2.5352941200427708,
+      "surprise": 1.6927486374307448
+    },
+    {
+      "experiment_type": "HexDiskBoundary",
+      "params": {
+        "center_a": -4,
+        "center_b": 3,
+        "radius": 11,
+        "scan_rings": true
+      },
+      "result": 2.5099483212511067,
+      "surprise": 1.6125981841327426
+    },
+    {
+      "experiment_type": "\"novel\"",
+      "params": {},
+      "result": 0.0,
+      "surprise": 0.0
+    },
+    {
+      "experiment_type": "\"novel\"",
+      "params": {},
+      "result": 0.0,
+      "surprise": 0.0
+    },
+    {
+      "experiment_type": "SbmConvergence",
+      "params": {
+        "coupling_strength": 0.6824594018777339,
+        "density": 0.8220436533225117,
+        "kerr_coefficient": 0.6745847282169252,
+        "max_iterations": 2000,
+        "n_vars": 256
+      },
+      "result": 0.5479001643999402,
+      "surprise": 1.0
+    },
+    {
+      "experiment_type": "\"novel\"",
+      "params": {},
+      "result": 0.0,
+      "surprise": 0.0
+    },
+    {
+      "experiment_type": "SbmConvergence",
+      "params": {
+        "coupling_strength": 1.3822525967604784,
+        "density": 0.16205448788340907,
+        "kerr_coefficient": 0.5835448287679504,
+        "max_iterations": 2000,
+        "n_vars": 256
+      },
+      "result": 0.606124001521491,
+      "surprise": 1.0
+    },
+    {
+      "experiment_type": "SbmConvergence",
+      "params": {
+        "coupling_strength": 1.9693500810809366,
+        "density": 0.6386756390652222,
+        "kerr_coefficient": 0.5925281650340559,
+        "max_iterations": 2000,
+        "n_vars": 32
+      },
+      "result": 0.6456456456456456,
+      "surprise": 1.0
+    },
+    {
+      "experiment_type": "\"novel\"",
+      "params": {},
+      "result": 0.0,
+      "surprise": 0.0
+    },
+    {
+      "experiment_type": "HexDiskBoundary",
+      "params": {
+        "center_a": 1,
+        "center_b": 2,
+        "radius": 3,
+        "scan_rings": true
+      },
+      "result": 3.286799128218273,
+      "surprise": 4.069216136288791
+    },
+    {
+      "experiment_type": "EisensteinNormSweep",
+      "params": {
+        "center_a": 3,
+        "center_b": 0,
+        "density": 1,
+        "radius": 31
+      },
+      "result": 0.26480221718316954,
+      "surprise": 2.4431543978925903
+    },
+    {
+      "experiment_type": "\"novel\"",
+      "params": {},
+      "result": 0.0,
+      "surprise": 0.0
+    },
+    {
+      "experiment_type": "HexDiskBoundary",
+      "params": {
+        "center_a": -3,
+        "center_b": -2,
+        "radius": 22,
+        "scan_rings": true
+      },
+      "result": 2.387021150414917,
+      "surprise": 1.2238683379697575
+    }
+  ],
+  "best_insight": {
+    "id": 14,
+    "iteration": 46,
+    "experiment_type": "\"HexDiskBoundary\"",
+    "parameters": {
+      "center_a": 1,
+      "center_b": 2,
+      "radius": 3,
+      "scan_rings": true
+    },
+    "observations": {
+      "primary": 3.286799128218273,
+      "secondary": [
+        [
+          "total_inside",
+          37.0
+        ],
+        [
+          "boundary_coverage",
+          0.0
+        ],
+        [
+          "hole_count",
+          3.0
+        ],
+        [
+          "fractal_dim",
+          3.286799128218273
+        ]
+      ],
+      "success": false,
+      "convergence_steps": 7,
+      "anomalies": [
+        "Hole at ring 4: 0/24 (0.0%)",
+        "Hole at ring 5: 0/30 (0.0%)",
+        "Hole at ring 6: 0/36 (0.0%)",
+        "Unexpected fractal dimension: 3.2868",
+        "Low boundary coverage: 0.000"
+      ]
+    },
+    "insight_text": "\"HexDiskBoundary\" did NOT converge after 7 steps\ntotal_inside=37.0000\nhole_count=3.0000\nfractal_dim=3.2868\nANOMALIES:\n  → Hole at ring 4: 0/24 (0.0%)\n  → Hole at ring 5: 0/30 (0.0%)\n  → Hole at ring 6: 0/36 (0.0%)\n  → Unexpected fractal dimension: 3.2868\n  → Low boundary coverage: 0.000\n⚠️ HIGH SURPRISE (1.00)",
+    "surprise": 1.0,
+    "novelty": 0.5728131217977791,
+    "quality": 0.5728131217977791,
+    "parent_id": null,
+    "generation": 0
+  },
+  "total_experiments": 0,
+  "total_insights": 15
+}
